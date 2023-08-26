@@ -4,6 +4,16 @@ $(".leftLogoSite span").click(function(){
    $('.top-navbar .sitebar-menu').toggle(200);
 })
 
+$(".footer-title").click(function(e){
+  $(".footer-wrapper ul ").toggle(100);
+})
+
+
+
+
+
+
+
 
 
 
