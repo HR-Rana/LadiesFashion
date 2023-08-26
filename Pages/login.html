@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/favicon-modified_w0q0rm.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/Responsive.css">
+    <!-- fontawesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="top-navbar">
+        <div class="container">
+            <div class="navbarBox d-block d-md-flex">
+                <div class="leftLogoSite">
+                    <div class="logo w-75">
+                        <a href="../index.html">
+                            <img src="../images/logo.svg" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <span>
+                        <i class="fa-solid fa-bars" id="bars"></i>
+                    </span>
+
+                    <!-- sitebar menu -->
+                    <section class="sitebar-menu" id="sitebar-menu">
+                        <span id="Close">Close</span>
+                        <div class="left_swipe open_swipe">
+                            <div class="advance-dropdown">
+                                <div class="user-profile d-flex justify-content-between ">
+                                    <img src="https://res.cloudinary.com/onlineaid/image/upload/v1656973670/theme.0.0.1/favicon-modified_w0q0rm.png"
+                                        alt="Profile">
+                                    <h6 class="d-flex align-items-center">Hi, user name </h6>
+                                </div>
+                                <hr>
+
+                                <div class="drop-section">
+                                    <div class="wrapper_two">
+                                        <ul class="menu_bar_two">
+                                            <li class="item_btn_one_b1">
+                                                <a href="../index.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-file-code"></span>
+                                                    </div>
+                                                    Home Page <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_one_b1">
+                                                <a href="./Shop1.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-cart-shopping"></span>
+                                                    </div>
+                                                    Shop 1 Page<i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_two_b2">
+                                                <a href="./Registration.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa fa-user-plus"></span>
+                                                    </div>
+                                                    Authentication <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_three_b3">
+                                                <a href="./Pages/Cart.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-chalkboard-user"></span>
+                                                    </div>
+
+                                                    Cart Page <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_three_b3">
+                                                <a href="./compare.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-code-compare"></span>
+                                                    </div>
+
+                                                    Compare Page <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_three_b3">
+                                                <a href="./OrderConform.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-chalkboard-user"></span>
+                                                    </div>
+
+                                                    Checkout Page <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_three_b3">
+                                                <a href="./Favorite.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-heart"></span>
+                                                    </div>
+
+                                                    Favorite Page <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_three_b3">
+                                                <a href="./login.html"
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon">
+                                                        <span class="fa-solid fa-user"></span>
+                                                    </div>
+                                                    Seller Pages <i class="fas fa-angle-right"></i>
+                                                </a>
+                                            </li>
+                                            <li class="item_btn_four_b4">
+                                                <div
+                                                    class="link-control d-flex justify-content-between align-items-center">
+                                                    <div class="icon"><span class="fa-solid fa-file-invoice"></span>
+                                                    </div>
+                                                    Extra Pages <i class="fas fa-angle-right"></i>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </section>
+                </div>
+                <div class="searchBox">
+                    <div class="searchbox-input">
+                        <select id="select" class="widthauto bg-transparent border-0" style="width: 47px;">
+                            <option disabled value="">All</option>
+                            <option value="" selected="" disabled="" style="display: none;">All</option>
+                            <option value="search-alias=keyword"> All Departments</option>
+                            <option value="search-alias=keyword"> Long long very long category is will be responsive
+                            </option>
+                            <option value="search-alias=keyword">Bike</option>
+                            <option value="search-alias=keyword">Backpage</option>
+                            <option value="search-alias=keyword">Books</option>
+                            <option value="search-alias=keyword">Boys' Fashion</option>
+                            <option value="search-alias=keyword">Car</option>
+                            <option value="search-alias=keyword">Computers</option>
+                            <option value="search-alias=keyword">Camera</option>
+                            <option value="search-alias=keyword">Digital Music</option>
+                            <option value="search-alias=keyword">Electronics</option>
+                            <option value="search-alias=keyword">Fragrance</option>
+                            <option value="search-alias=keyword">Furniture</option>
+                            <option value="search-alias=keyword">Girls' Fashion</option>
+                            <option value="search-alias=keyword">Grocery</option>
+                            <option value="search-alias=keyword"> Home &amp; Kitchen </option>
+                            <option value="search-alias=keyword">Men's Fashion</option>
+                            <option value="search-alias=keyword">Headphone</option>
+                            <option value="search-alias=keyword">Kid's Fashion</option>
+                            <option value="search-alias=keyword">Laptops</option>
+                            <option value="search-alias=keyword">Phone</option>
+                            <option value="search-alias=keyword">Shoes</option>
+                            <option value="search-alias=keyword">Sunglasses</option>
+                            <option value="search-alias=keyword"> Ultimate Survival </option>
+                            <option value="search-alias=keyword">Watch</option>
+                            <option value="search-alias=keyword">Water Purifier</option>
+                        </select>
+                        <input type="text" placeholder="">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class=" d-none d-md-flex d-md-block Navright-siteIcons">
+                    <div>
+                        <a href="./compare.html">
+                            <span class="position-relative">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    3
+                                </span>
+                            </span>
+                        </a>
+                        <a href="./Favorite.html">
+                            <span class="position-relative">
+                                <i class="fa-regular fa-heart"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                </span>
+                            </span>
+                        </a>
+                        <a href="./Cart.html">
+                            <span class="position-relative">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    5
+                                </span>
+                            </span>
+                        </a>
+                        <span>
+                            <a href="./login.html">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                        </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="responsive-nav d-md-none d-block  fixed-bottom bg-light w-100 p-2 z-3">
+        <div class="container">
+            <div class="row">
+                <div class=" d-flex justify-content-between">
+                    <a href="../index.html">
+                        <span class="position-relative">
+                            <i class="fa-solid fa-house"></i>
+                        </span>
+                    </a>
+                    <a href="./compare.html">
+                        <span class="position-relative">
+                            <i class="fa-solid fa-code-compare"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                3
+                            </span>
+                        </span>
+                    </a>
+                    <a href="./Favorite.html">
+                        <span class="position-relative">
+                            <i class="fa-regular fa-heart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                5
+                            </span>
+                        </span>
+                    </a>
+                    <a href="./ProductDetails.html">
+                        <span class="position-relative">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                5
+                            </span>
+                        </span>
+                    </a>
+                    <span>
+                        <a href="./login.html" class="">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="login-page">
+        <div class="container">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form action="">
+                    <input type="email" placeholder="Your Mail">
+                    <input type="password" placeholder="Your Password">
+                    <span class="d-flex">
+                        <input type="checkbox" name="" id="radio">
+                        <label for="radio" class="mt-1 mx-1">Remember Me</label>
+                    </span>
+                    <button class="btn btn-primary">Login</button>
+                </form>
+                <div class="d-flex others-way">
+                    <span class="d-flex">
+                        <p>Haven't Account?</p><a href="./Registration.html">Register Now</a>
+                    </span>
+                    <span>
+                        <a href="./ForgotPassword.html">Forget Password?</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- jQuery cdn Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- fontwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../js/Custom.js"></script>
+
+</body>
+
+</html>
